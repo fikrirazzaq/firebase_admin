@@ -20,7 +20,10 @@ dependencies:
   collection: ^1.15.0
   gcloud: ^0.8.0
   firebaseapis: ^0.1.2
-  snapshot: ^0.2.5
+  snapshot:
+    git:
+      url: https://github.com/bvoq/snapshot.git
+      ref: patch-1
   _discoveryapis_commons: ^1.0.4
   googleapis: ^11.4.0
 
