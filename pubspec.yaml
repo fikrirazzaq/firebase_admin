@@ -4,28 +4,31 @@ version: 0.3.0-dev.4
 homepage: https://github.com/appsup-dart/firebase_admin
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.4.0 <4.0.0'
 
 dependencies:
-  clock: ^1.1.0
-  x509: ^0.2.2
-  jose: ^0.3.2
-  dotenv: ^4.0.0
-  openid_client: ^0.4.3
-  firebase_dart: ^1.1.0-dev.11
+  clock: ^1.1.1
+  x509: ^0.2.4+2
+  jose: ^0.3.4
+  dotenv: ^4.2.0
+  openid_client: ^0.4.8
+  firebase_dart: ^1.1.4
   path: ^1.8.0
   meta: ^1.4.0
-  http: ^0.13.0
-  crypto_keys: ^0.3.0
-  collection: ^1.15.0
-  gcloud: ^0.8.0
-  firebaseapis: ^0.1.2
+  http: ^1.2.1
+  crypto_keys: ^0.3.0+1
+  collection: ^1.18.0
+  gcloud:
+    git:
+      url: https://github.com/Melowdex/gcloud.git
+      ref: 21dc15ce5ba1a8ae9ddbb34f5a31a854aeea594b
+  firebaseapis: ^0.2.0
   snapshot:
     git:
       url: https://github.com/bvoq/snapshot.git
       ref: patch-1
   _discoveryapis_commons: ^1.0.4
-  googleapis: ^11.4.0
+  googleapis: ^13.2.0
 
 dev_dependencies:
   test: ^1.17.8
