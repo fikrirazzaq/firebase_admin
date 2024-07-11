@@ -12,7 +12,11 @@ dependencies:
   jose: ^0.3.4
   dotenv: ^4.2.0
   openid_client: ^0.4.8
-  firebase_dart: ^1.1.4
+  firebase_dart:
+    git:
+      url: https://github.com/fikrirazzaq/firebase_dart.git
+      ref: 2419789e9abdea86090a24e6220ac04b3971f807
+      path: packages/firebase_dart
   path: ^1.8.0
   meta: ^1.4.0
   http: ^1.2.1
