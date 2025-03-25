@@ -4,41 +4,31 @@ version: 0.3.0-dev.4
 homepage: https://github.com/appsup-dart/firebase_admin
 
 environment:
-  sdk: '>=3.4.0 <4.0.0'
+  sdk: ">=3.6.0 <4.0.0"
 
 dependencies:
-  clock: ^1.1.1
-  x509: ^0.2.4+2
+  clock: ^1.1.2
+  x509: ^0.2.4+3
   jose: ^0.3.4
   dotenv: ^4.2.0
-  openid_client: ^0.4.8
-  firebase_dart:
-    git:
-      url: https://github.com/fikrirazzaq/firebase_dart.git
-      ref: 2419789e9abdea86090a24e6220ac04b3971f807
-      path: packages/firebase_dart
-  path: ^1.8.0
-  meta: ^1.4.0
-  http: ^1.2.1
+  openid_client: ^0.4.9
+  firebase_dart: ^1.3.4
+  path: ^1.9.1
+  meta: ^1.16.0
+  http: ^1.3.0
   crypto_keys: ^0.3.0+1
-  collection: ^1.18.0
-  gcloud:
-    git:
-      url: https://github.com/Melowdex/gcloud.git
-      ref: 21dc15ce5ba1a8ae9ddbb34f5a31a854aeea594b
+  collection: ^1.19.1
+  gcloud: ^0.8.18
   firebaseapis: ^0.2.0
-  snapshot:
-    git:
-      url: https://github.com/bvoq/snapshot.git
-      ref: patch-1
-  _discoveryapis_commons: ^1.0.4
+  snapshot: ^0.2.6+2
+  _discoveryapis_commons: ^1.0.7
   googleapis: ^13.2.0
 
 dev_dependencies:
-  test: ^1.17.8
-  fake_async: ^1.2.0
-  lints: ^2.0.0
-  mockito: ^5.0.10
+  test: ^1.25.15
+  fake_async: ^1.3.3
+  lints: ^5.1.1
+  mockito: ^5.4.5
 
 false_secrets:
- - /lib/src/testing.dart 
+  - /lib/src/testing.dart
